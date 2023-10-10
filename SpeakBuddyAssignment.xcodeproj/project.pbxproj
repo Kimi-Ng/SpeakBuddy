@@ -14,6 +14,7 @@
 		BE05279D2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */; };
 		BE0527A72AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */; };
 		BE0527A92AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */; };
+		BE0527B62AD52AA10035EDE7 /* SBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527B52AD52AA10035EDE7 /* SBConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITests.swift; sourceTree = "<group>"; };
 		BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE0527B52AD52AA10035EDE7 /* SBConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BE05278D2AD521B00035EDE7 /* ContentView.swift */,
 				BE05278F2AD521B20035EDE7 /* Assets.xcassets */,
 				BE0527912AD521B20035EDE7 /* Preview Content */,
+				BE0527B52AD52AA10035EDE7 /* SBConstants.swift */,
 			);
 			path = SpeakBuddyAssignment;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0527B62AD52AA10035EDE7 /* SBConstants.swift in Sources */,
 				BE05278E2AD521B00035EDE7 /* ContentView.swift in Sources */,
 				BE05278C2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift in Sources */,
 			);
