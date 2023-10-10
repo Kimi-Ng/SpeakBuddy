@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE05278C2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05278B2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift */; };
+		BE05278E2AD521B00035EDE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05278D2AD521B00035EDE7 /* ContentView.swift */; };
+		BE0527902AD521B20035EDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE05278F2AD521B20035EDE7 /* Assets.xcassets */; };
+		BE0527932AD521B20035EDE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0527922AD521B20035EDE7 /* Preview Assets.xcassets */; };
+		BE05279D2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */; };
+		BE0527A72AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */; };
+		BE0527A92AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0527992AD521B20035EDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0527802AD521B00035EDE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0527872AD521B00035EDE7;
+			remoteInfo = SpeakBuddyAssignment;
+		};
+		BE0527A32AD521B20035EDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0527802AD521B00035EDE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0527872AD521B00035EDE7;
+			remoteInfo = SpeakBuddyAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0527882AD521B00035EDE7 /* SpeakBuddyAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBuddyAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE05278B2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentApp.swift; sourceTree = "<group>"; };
+		BE05278D2AD521B00035EDE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE05278F2AD521B20035EDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0527922AD521B20035EDE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentTests.swift; sourceTree = "<group>"; };
+		BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITests.swift; sourceTree = "<group>"; };
+		BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0527852AD521B00035EDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0527952AD521B20035EDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05279F2AD521B20035EDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE05277F2AD521B00035EDE7 = {
+			isa = PBXGroup;
+			children = (
+				BE05278A2AD521B00035EDE7 /* SpeakBuddyAssignment */,
+				BE05279B2AD521B20035EDE7 /* SpeakBuddyAssignmentTests */,
+				BE0527A52AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */,
+				BE0527892AD521B00035EDE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0527892AD521B00035EDE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0527882AD521B00035EDE7 /* SpeakBuddyAssignment.app */,
+				BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */,
+				BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE05278A2AD521B00035EDE7 /* SpeakBuddyAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				BE05278B2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift */,
+				BE05278D2AD521B00035EDE7 /* ContentView.swift */,
+				BE05278F2AD521B20035EDE7 /* Assets.xcassets */,
+				BE0527912AD521B20035EDE7 /* Preview Content */,
+			);
+			path = SpeakBuddyAssignment;
+			sourceTree = "<group>";
+		};
+		BE0527912AD521B20035EDE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE0527922AD521B20035EDE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE05279B2AD521B20035EDE7 /* SpeakBuddyAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */,
+			);
+			path = SpeakBuddyAssignmentTests;
+			sourceTree = "<group>";
+		};
+		BE0527A52AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */,
+				BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */,
+			);
+			path = SpeakBuddyAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0527AC2AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignment" */;
+			buildPhases = (
+				BE0527842AD521B00035EDE7 /* Sources */,
+				BE0527852AD521B00035EDE7 /* Frameworks */,
+				BE0527862AD521B00035EDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakBuddyAssignment;
+			productName = SpeakBuddyAssignment;
+			productReference = BE0527882AD521B00035EDE7 /* SpeakBuddyAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0527972AD521B20035EDE7 /* SpeakBuddyAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0527AF2AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentTests" */;
+			buildPhases = (
+				BE0527942AD521B20035EDE7 /* Sources */,
+				BE0527952AD521B20035EDE7 /* Frameworks */,
+				BE0527962AD521B20035EDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE05279A2AD521B20035EDE7 /* PBXTargetDependency */,
+			);
+			name = SpeakBuddyAssignmentTests;
+			productName = SpeakBuddyAssignmentTests;
+			productReference = BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0527A12AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0527B22AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentUITests" */;
+			buildPhases = (
+				BE05279E2AD521B20035EDE7 /* Sources */,
+				BE05279F2AD521B20035EDE7 /* Frameworks */,
+				BE0527A02AD521B20035EDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0527A42AD521B20035EDE7 /* PBXTargetDependency */,
+			);
+			name = SpeakBuddyAssignmentUITests;
+			productName = SpeakBuddyAssignmentUITests;
+			productReference = BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0527802AD521B00035EDE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BE0527872AD521B00035EDE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BE0527972AD521B20035EDE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BE0527872AD521B00035EDE7;
+					};
+					BE0527A12AD521B20035EDE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BE0527872AD521B00035EDE7;
+					};
+				};
+			};
+			buildConfigurationList = BE0527832AD521B00035EDE7 /* Build configuration list for PBXProject "SpeakBuddyAssignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE05277F2AD521B00035EDE7;
+			productRefGroup = BE0527892AD521B00035EDE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */,
+				BE0527972AD521B20035EDE7 /* SpeakBuddyAssignmentTests */,
+				BE0527A12AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0527862AD521B00035EDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0527932AD521B20035EDE7 /* Preview Assets.xcassets in Resources */,
+				BE0527902AD521B20035EDE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0527962AD521B20035EDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0527A02AD521B20035EDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0527842AD521B00035EDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05278E2AD521B00035EDE7 /* ContentView.swift in Sources */,
+				BE05278C2AD521B00035EDE7 /* SpeakBuddyAssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0527942AD521B20035EDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE05279D2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE05279E2AD521B20035EDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0527A72AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift in Sources */,
+				BE0527A92AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE05279A2AD521B20035EDE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */;
+			targetProxy = BE0527992AD521B20035EDE7 /* PBXContainerItemProxy */;
+		};
+		BE0527A42AD521B20035EDE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */;
+			targetProxy = BE0527A32AD521B20035EDE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE0527AA2AD521B20035EDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0527AB2AD521B20035EDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0527AD2AD521B20035EDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBuddyAssignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0527AE2AD521B20035EDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBuddyAssignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE0527B02AD521B20035EDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBuddyAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBuddyAssignment";
+			};
+			name = Debug;
+		};
+		BE0527B12AD521B20035EDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBuddyAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBuddyAssignment";
+			};
+			name = Release;
+		};
+		BE0527B32AD521B20035EDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakBuddyAssignment;
+			};
+			name = Debug;
+		};
+		BE0527B42AD521B20035EDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakBuddyAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0527832AD521B00035EDE7 /* Build configuration list for PBXProject "SpeakBuddyAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0527AA2AD521B20035EDE7 /* Debug */,
+				BE0527AB2AD521B20035EDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0527AC2AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0527AD2AD521B20035EDE7 /* Debug */,
+				BE0527AE2AD521B20035EDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0527AF2AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0527B02AD521B20035EDE7 /* Debug */,
+				BE0527B12AD521B20035EDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0527B22AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0527B32AD521B20035EDE7 /* Debug */,
+				BE0527B42AD521B20035EDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0527802AD521B00035EDE7 /* Project object */;
+}
