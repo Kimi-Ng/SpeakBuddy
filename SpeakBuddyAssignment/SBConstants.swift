@@ -44,8 +44,9 @@ struct SBLayoutConfiguration {
 
     struct ChartView {
         static let barWidth: CGFloat = 48
-        static let barHeight: CGFloat = 300
-        static let width: CGFloat = 270
+        static let barPanelHeight: CGFloat = 300
+        static let barPanelWidth: CGFloat = 270
+        static let width: CGFloat = 346
         static let height: CGFloat = 378
         static let bottomPadding: CGFloat = 25
         static let annotationSize: CGFloat = 12

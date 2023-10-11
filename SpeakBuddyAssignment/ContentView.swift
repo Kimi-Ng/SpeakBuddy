@@ -57,7 +57,7 @@ struct ContentView: View {
                             Text(item.data.x).fontWeight(.bold).font(SBFont.hiragino.fontSize(SBLayoutConfiguration.ChartView.annotationSize))
                         }).foregroundStyle(LinearGradient(gradient: Gradient(colors: [.sbBlueLight, .sbBlueDark]), startPoint: .top, endPoint: .bottom))
                     }
-                }.frame(width:SBLayoutConfiguration.ChartView.width, height:SBLayoutConfiguration.ChartView.barHeight)
+                }.frame(width:SBLayoutConfiguration.ChartView.barPanelWidth, height:SBLayoutConfiguration.ChartView.barPanelHeight)
                     .chartYScale(domain: 0...100)
                     .chartXAxis(SBLayoutConfiguration.ChartView.xAxisVisibility ? .visible : .hidden)
                     .chartYAxis(SBLayoutConfiguration.ChartView.yAxisVisibility ? .visible : .hidden)
@@ -69,7 +69,7 @@ struct ContentView: View {
                         }
                     }
             }.padding(.bottom, SBLayoutConfiguration.ChartView.bottomPadding)
-        }.frame(height: SBLayoutConfiguration.ChartView.height)
+        }.frame(width: SBLayoutConfiguration.ChartView.width, height: SBLayoutConfiguration.ChartView.height)
     }
     
     // a circled close button
