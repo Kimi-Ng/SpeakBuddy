@@ -12,22 +12,14 @@
 		BE0527902AD521B20035EDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE05278F2AD521B20035EDE7 /* Assets.xcassets */; };
 		BE0527932AD521B20035EDE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0527922AD521B20035EDE7 /* Preview Assets.xcassets */; };
 		BE05279D2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */; };
-		BE0527A72AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */; };
-		BE0527A92AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */; };
 		BE0527B62AD52AA10035EDE7 /* SBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527B52AD52AA10035EDE7 /* SBConstants.swift */; };
 		BE0527B92AD545490035EDE7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0527BB2AD545490035EDE7 /* Localizable.strings */; };
 		BE0527BF2AD553B80035EDE7 /* ChartDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0527BE2AD553B80035EDE7 /* ChartDataFetcher.swift */; };
+		BE91FCD52AD6AFA300719CBD /* SBDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE91FCD42AD6AFA300719CBD /* SBDataModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BE0527992AD521B20035EDE7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE0527802AD521B00035EDE7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE0527872AD521B00035EDE7;
-			remoteInfo = SpeakBuddyAssignment;
-		};
-		BE0527A32AD521B20035EDE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE0527802AD521B00035EDE7 /* Project object */;
 			proxyType = 1;
@@ -44,13 +36,11 @@
 		BE0527922AD521B20035EDE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentTests.swift; sourceTree = "<group>"; };
-		BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITests.swift; sourceTree = "<group>"; };
-		BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE0527B52AD52AA10035EDE7 /* SBConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBConstants.swift; sourceTree = "<group>"; };
 		BE0527BA2AD545490035EDE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE0527BD2AD546830035EDE7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE0527BE2AD553B80035EDE7 /* ChartDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataFetcher.swift; sourceTree = "<group>"; };
+		BE91FCD42AD6AFA300719CBD /* SBDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDataModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +58,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE05279F2AD521B20035EDE7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +66,6 @@
 			children = (
 				BE05278A2AD521B00035EDE7 /* SpeakBuddyAssignment */,
 				BE05279B2AD521B20035EDE7 /* SpeakBuddyAssignmentTests */,
-				BE0527A52AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */,
 				BE0527892AD521B00035EDE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +75,6 @@
 			children = (
 				BE0527882AD521B00035EDE7 /* SpeakBuddyAssignment.app */,
 				BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */,
-				BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,17 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				BE05279C2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift */,
+				BE91FCD42AD6AFA300719CBD /* SBDataModelTests.swift */,
 			);
 			path = SpeakBuddyAssignmentTests;
-			sourceTree = "<group>";
-		};
-		BE0527A52AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BE0527A62AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift */,
-				BE0527A82AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift */,
-			);
-			path = SpeakBuddyAssignmentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,24 +148,6 @@
 			productReference = BE0527982AD521B20035EDE7 /* SpeakBuddyAssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE0527A12AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE0527B22AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentUITests" */;
-			buildPhases = (
-				BE05279E2AD521B20035EDE7 /* Sources */,
-				BE05279F2AD521B20035EDE7 /* Frameworks */,
-				BE0527A02AD521B20035EDE7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE0527A42AD521B20035EDE7 /* PBXTargetDependency */,
-			);
-			name = SpeakBuddyAssignmentUITests;
-			productName = SpeakBuddyAssignmentUITests;
-			productReference = BE0527A22AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,10 +162,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					BE0527972AD521B20035EDE7 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = BE0527872AD521B00035EDE7;
-					};
-					BE0527A12AD521B20035EDE7 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = BE0527872AD521B00035EDE7;
 					};
@@ -232,7 +183,6 @@
 			targets = (
 				BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */,
 				BE0527972AD521B20035EDE7 /* SpeakBuddyAssignmentTests */,
-				BE0527A12AD521B20035EDE7 /* SpeakBuddyAssignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +199,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BE0527962AD521B20035EDE7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE0527A02AD521B20035EDE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,16 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE91FCD52AD6AFA300719CBD /* SBDataModelTests.swift in Sources */,
 				BE05279D2AD521B20035EDE7 /* SpeakBuddyAssignmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE05279E2AD521B20035EDE7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE0527A72AD521B20035EDE7 /* SpeakBuddyAssignmentUITests.swift in Sources */,
-				BE0527A92AD521B20035EDE7 /* SpeakBuddyAssignmentUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +235,6 @@
 			isa = PBXTargetDependency;
 			target = BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */;
 			targetProxy = BE0527992AD521B20035EDE7 /* PBXContainerItemProxy */;
-		};
-		BE0527A42AD521B20035EDE7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE0527872AD521B00035EDE7 /* SpeakBuddyAssignment */;
-			targetProxy = BE0527A32AD521B20035EDE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,40 +461,6 @@
 			};
 			name = Release;
 		};
-		BE0527B32AD521B20035EDE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpeakBuddyAssignment;
-			};
-			name = Debug;
-		};
-		BE0527B42AD521B20035EDE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kimi.SpeakBuddyAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpeakBuddyAssignment;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,15 +487,6 @@
 			buildConfigurations = (
 				BE0527B02AD521B20035EDE7 /* Debug */,
 				BE0527B12AD521B20035EDE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE0527B22AD521B20035EDE7 /* Build configuration list for PBXNativeTarget "SpeakBuddyAssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE0527B32AD521B20035EDE7 /* Debug */,
-				BE0527B42AD521B20035EDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

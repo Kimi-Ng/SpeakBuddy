@@ -54,7 +54,7 @@ struct ContentView: View {
                             y: .value("y", item.animated ? item.data.y : 0),
                             width: MarkDimension(floatLiteral: SBLayoutConfiguration.ChartView.barWidth)
                         ).annotation(position: .bottom, alignment: .center, spacing: 7, content:{
-                            Text(item.data.x).fontWeight(.bold).font(SBFont.hiragino.fontSize(SBLayoutConfiguration.ChartView.annotationSize))
+                            Text(item.data.x).font(SBFont.hiragino.fontSize(SBLayoutConfiguration.ChartView.annotationSize)).bold()
                         }).foregroundStyle(LinearGradient(gradient: Gradient(colors: [.sbBlueLight, .sbBlueDark]), startPoint: .top, endPoint: .bottom))
                     }
                 }.frame(width:SBLayoutConfiguration.ChartView.barPanelWidth, height:SBLayoutConfiguration.ChartView.barPanelHeight)
@@ -108,7 +108,10 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: SBLayoutConfiguration.JoinButton.cornerRadius)
                 .stroke(Color.white, lineWidth: SBLayoutConfiguration.JoinButton.borderWidth)
         )
-        .shadow(color: Color.black.opacity(0.2), radius: SBLayoutConfiguration.JoinButton.cornerRadius, x:0, y:2)
+        .shadow(color: Color.black.opacity(0.2),
+                radius: SBLayoutConfiguration.JoinButton.cornerRadius,
+                x:0,
+                y:2)
     }
     
     var headerView: some View {

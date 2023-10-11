@@ -33,6 +33,7 @@ enum SBFont: String {
     }
 }
 
+// view configurations
 struct SBLayoutConfiguration {
     struct JoinButton {
         static let width: CGFloat = 350

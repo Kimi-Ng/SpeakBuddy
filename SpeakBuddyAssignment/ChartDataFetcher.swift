@@ -42,15 +42,20 @@ class ChartFetcher: ChartDataProvider {
 }
 
 class MockChartFetcher: ChartDataProvider {
-    func chartData() -> [BarViewModel] {
-       let userModel = [
+    static let mockAppUserModel = [
             AppUserModel(time: "現在", scores: 22),
             AppUserModel(time: "三ヶ月", scores: 33),
             AppUserModel(time: "1年", scores: 73),
             AppUserModel(time: "2年", scores: 100)]
 
-        let barModel = userModel.map { BarDataModel(x: $0.time, y: $0.scores)}
+    private let userModel:[AppUserModel]
 
+    init(userModel: [AppUserModel] = mockAppUserModel) {
+        self.userModel = userModel
+    }
+
+    func chartData() -> [BarViewModel] {
+        let barModel = userModel.map { BarDataModel(x: $0.time, y: $0.scores)}
         return barModel.map { BarViewModel(data: $0, animated: false) }
     }
 }
