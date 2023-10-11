@@ -1,0 +1,8 @@
+/*
+  Localizable.strings (English)
+*/
+
+"Header" = "Hello\nSpeakBUDDY";
+"PlanJoinButton" = "Join Plan";
+"DescriptionLabel-1" = "Level up";
+"DescriptionLabel-2" = "with SpeakBuddy";
