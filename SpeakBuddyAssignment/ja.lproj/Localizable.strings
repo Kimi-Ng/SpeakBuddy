@@ -1,0 +1,8 @@
+/*
+  Localizable.strings (Japanese)
+*/
+
+"Header" = "Hello\nSpeakBUDDY";
+"PlanJoinButton" = "プランに登録する";
+"DescriptionLabel-1" = "スピークバディで";
+"DescriptionLabel-2" = "レベルアップ";
